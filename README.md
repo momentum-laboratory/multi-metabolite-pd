@@ -4,6 +4,8 @@
 ![Descriptive Alt Text](images/fig1_architecture.jpg)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.11329v1-b31b1b.svg)](https://arxiv.org/abs/2507.11329)
 [![Python](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/)
+[![DOI](https://zenodo.org/badge/998475643.svg)](https://doi.org/10.5281/zenodo.17754313)
+
 
 【[Hagar Shmuely](https://github.com/hagarshmuely) | Michal Rivlin | [Or Perlman](https://github.com/operlman)】  
 [Momentum Lab, Tel Aviv University](https://mri-ai.github.io/)
@@ -12,7 +14,7 @@
 
 ## 📌 Overview
 
-This project demonstrates the inference pipeline described in the paper *"Quantitative Multi-Metabolite Imaging of Parkinson’s Disease using AI-Boosted Molecular MRI"* (npj Imaging, 2025. https://doi.org/10.1038/s44303-025-00130-x), focusing on:
+This project demonstrates the inference pipeline described in the paper *"Quantitative Multi-Metabolite Imaging of Parkinson’s Disease using AI-Boosted Molecular MRI"* (Shmuely, Rivlin, and Perlman, npj Imaging, 2025. https://doi.org/10.1038/s44303-025-00130-x), focusing on:
 
 - Inference on glutamate **phantoms**.
 - Inference on **representative mouse brains** (pre-MPTP and post-MPTP groups) to visualize metabolite distributions and potential biomarkers.
