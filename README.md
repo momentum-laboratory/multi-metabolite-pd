@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-This project demonstrates the inference pipeline described in the paper *"Quantitative Multi-Metabolite Imaging of Parkinson’s Disease using AI-Boosted Molecular MRI"*, focusing on:
+This project demonstrates the inference pipeline described in the paper *"Quantitative Multi-Metabolite Imaging of Parkinson’s Disease using AI-Boosted Molecular MRI"* (npj Imaging, 2025. https://doi.org/10.1038/s44303-025-00130-x), focusing on:
 
 - Inference on glutamate **phantoms**.
 - Inference on **representative mouse brains** (pre-MPTP and post-MPTP groups) to visualize metabolite distributions and potential biomarkers.
@@ -33,7 +33,10 @@ conda env create -f environment.yml
 # Activate the environment
 conda activate pd-multipool-cest
 ```
-# Troubleshooting: for some systems the following packages might need to be externally installed:
+## Troubleshooting
+
+For some systems the following packages might need to be externally installed:
+
 ```bash
 conda install pytorch
 pip install cmcrameri
